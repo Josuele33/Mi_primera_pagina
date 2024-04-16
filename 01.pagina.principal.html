@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEAGUE OF PYTHON</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="lol.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="titulo">LEAGUE OF PYTHON</h1>
+    <!-- Sección 1 -->
+    <div class="post">
+        <h2>Que es League of Python</h2>
+        <a href="01.pagina1.html" style="color: black; text-decoration: none;">    
+            <p>
+                League of Python es un popular videojuego en línea de tipo MOBA (Multiplayer Online Battle Arena) desarrollado y publicado por Riot Games. En este juego, los jugadores controlan un personaje llamado "campeón" el cual puede trolearos de multiples maneras, cada uno con habilidades y roles únicos, y trabajan en equipo (buena ironía) para destruir la base enemiga, mientras te flameas con tus compañeros, defienden la suya propia. El juego se ha convertido en uno de los más populares debido a la alta tasa de suicidios que causa a los pcs de los propios usuarios y exitosos en el mundo de los deportes electrónicos dada la toxicidad que tiene, con competiciones profesionales a nivel internacional y una gran comunidad de jugadores en todo el mundo.
+            </p>
+        </a>
+    </div>
+
+        <!-- Sección 2 -->
+    <div class="post">
+        <h2>Importancia del troleo y el flame</h2>
+        <a href="02.pagina2.html" style="color: black; text-decoration: none;">
+            <p>
+               Un jugador "troll" en el contexto de los videojuegos, especialmente en juegos multijugador en línea como League of Legends, es alguien que actúa de manera deliberada para molestar, irritar o sabotear a sus compañeros de equipo o a sus oponentes. Los trolls suelen comportarse de manera disruptiva, haciendo cosas como jugar de manera incompetente, tomar decisiones irracionales que perjudican al equipo, o abusar verbalmente de otros jugadores.
+
+               Por otro lado, "flamear" se refiere a la acción de insultar, criticar o provocar a otros jugadores de manera agresiva a través del chat o mensajes de voz durante una partida. Los jugadores que flamean pueden usar lenguaje ofensivo, hacer comentarios despectivos sobre las habilidades o decisiones de otros jugadores, o simplemente crear un ambiente negativo en el juego.
+            
+               Ambos comportamientos, el trolling y el flameo, pueden ser muy perjudiciales para la experiencia de juego de todos los involucrados, ya que pueden generar conflictos, reducir la diversión y afectar el rendimiento del equipo. Es importante tratar de mantener una actitud respetuosa y colaborativa mientras se juega en línea para promover un ambiente de juego positivo y disfrutable para todos.
+            </p>
+            <a name="post2"></a>
+    </div>
+
+        <!-- Sección 3 -->
+    <div class="post">
+        <h2>Venga ahora ya me dejo de troleos...</h2>
+        <a href="03.pagina3.html" style="color: black; text-decoration: none;"> 
+            <p>
+                Esquilar una oveja es un proceso importante para los agricultores y criadores de ovejas, ya que ayuda a mantener a los animales limpios, saludables y cómodos, y también proporciona lana para la producción de textiles. Aquí hay una guía básica para esquilar una oveja:
+
+                Preparación del área: Busca un área limpia y segura para esquilar a la oveja. Puede ser en un corral o en un espacio abierto con buena iluminación.
+
+                Preparación del equipo: Asegúrate de tener todas las herramientas necesarias, como una máquina de esquilar o tijeras de esquilar, peine, cepillo y recortadoras. También necesitarás una mesa o plataforma para sujetar a la oveja durante el proceso.
+
+                Revisión del estado de la oveja: Antes de comenzar, examina la oveja para detectar cualquier problema de salud o lesión que pueda requerir atención. Si la oveja tiene nudos grandes en la lana, es importante desenredarlos antes de comenzar a esquilar.
+
+                Colocación de la oveja: Coloca a la oveja en la mesa o plataforma de manera que esté cómoda y segura. Puedes atar suavemente las extremidades para mantenerla quieta si es necesario.
+
+                Comienza a esquilar: Con la máquina de esquilar o las tijeras, comienza a cortar la lana en secciones, trabajando desde el cuello hacia abajo y luego hacia los costados y la parte trasera del animal. Es importante mantener la piel estirada mientras esquilas para evitar cortes.
+
+                Cuida la piel: Presta atención a la piel de la oveja mientras esquilas. Evita cortarla y trata de mantenerla libre de irritaciones o abrasiones.
+
+                Revisión final: Una vez que hayas terminado de esquilar, revisa la oveja para asegurarte de que no queden mechones de lana sin cortar. Si es necesario, recorta cualquier área irregular para que la lana tenga un aspecto uniforme.
+
+                Cuidado posterior: Después de esquilar, es importante cuidar la piel de la oveja. Puedes aplicar un tratamiento antibacteriano o antiséptico en cualquier corte menor para prevenir infecciones. Además, proporciona agua fresca y comida para que la oveja se recupere después del proceso.
+
+                Es importante recordar que la esquila de ovejas puede ser un trabajo exigente y requerir habilidad y práctica para hacerlo correctamente y de manera segura. Si no te sientes cómodo esquilando ovejas por tu cuenta, considera contratar a un profesional o pedir ayuda a alguien con experiencia.
+
+            </p>
+    </div>
+</body>
+
+<script>
+    window.onload = function() {
+        var posts = document.querySelectorAll('.post p');
+        var maxWords = 150; // Define el número máximo de palabras que quieres en cada post
+    
+        posts.forEach(function(post) {
+            var words = post.textContent.split(' ');
+            if (words.length > maxWords) {
+                post.textContent = words.slice(0, maxWords).join(' ') + '...';
+            }
+        });
+    }
+    </script>
+
+<video src="https://www.leagueoflegends.com/static/hero-3e934348790824f4b800524f96a93020.mp4" width="100%" autoplay muted loop></video>
+
+</html>
