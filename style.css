@@ -46,11 +46,35 @@ video{
     
 }
 
-.boton{
-    display: line-block;
+.boton a, .anterior a, .siguiente a{
+
+    display:inline-block;
     background-color: black;
     color: #e2e8f0;
     text-decoration: none;
     padding: 10px;
     border-radius: 50px;
+    
+}
+
+.botones{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.anterior{
+
+    align-content: flex-start;
+    margin-right: 750px;
+
+}
+
+.siguiente{
+
+    align-content: flex-start;
+    margin-left: 750px;
+    
 }
