@@ -45,3 +45,12 @@ video{
 
     
 }
+
+.boton{
+    display: line-block;
+    background-color: black;
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+}
